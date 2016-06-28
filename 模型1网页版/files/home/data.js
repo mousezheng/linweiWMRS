@@ -1,0 +1,149 @@
+﻿$axure.loadCurrentPage({
+  "url":"home.html",
+  "generationDate":new Date(1467131120862.63),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"e1385c98af6245f2b1c92a24439ea320",
+    "type":"Axure:Page",
+    "name":"Home",
+    "notes":{
+      "默认":"<p><span>登陆界面</span></p><p><span>&nbsp;</span></p>"},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+      "onClick":{
+        "description":"OnClick",
+        "cases":[{
+            "description":"用例 1",
+            "isNewIfGroup":false,
+            "actions":[{
+                "action":"linkWindow",
+                "description":"在 当前窗口 打开 页面 2",
+                "target":{
+                  "targetType":"page",
+                  "url":"页面_2.html",
+                  "includeVariables":true},
+                "linkType":"current"}]}]}},
+    "diagram":{
+      "objects":[{
+          "id":"80ad736359a34df5b8131e6c59f05f82",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":600,
+              "height":400}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"9752bc7a56b94f75bc7f1daa9c111b91",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":600,
+                  "height":400}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/home/u0.png"}},
+{
+          "id":"ea5c1db80f3c4de58605ecf8f795be78",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"h4",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":250,
+              "y":200},
+            "size":{
+              "width":100,
+              "height":20}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"55bacc552a374895b281c64da900472d",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":250,
+                  "y":200},
+                "size":{
+                  "width":100,
+                  "height":20}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"76e90fd0d22945e9bbc46f7749190085",
+          "label":"",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":192,
+              "y":230},
+            "size":{
+              "width":158,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "placeholderText":"请输入密码"},
+{
+          "id":"11ea887c92e543428d7705c2a0173b01",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":370,
+              "y":230},
+            "size":{
+              "width":50,
+              "height":25}},
+          "adaptiveStyles":{
+}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "80ad736359a34df5b8131e6c59f05f82":{
+      "scriptId":"u0"},
+    "9752bc7a56b94f75bc7f1daa9c111b91":{
+      "scriptId":"u1"},
+    "ea5c1db80f3c4de58605ecf8f795be78":{
+      "scriptId":"u2"},
+    "55bacc552a374895b281c64da900472d":{
+      "scriptId":"u3"},
+    "76e90fd0d22945e9bbc46f7749190085":{
+      "scriptId":"u4"},
+    "11ea887c92e543428d7705c2a0173b01":{
+      "scriptId":"u5"}}});
